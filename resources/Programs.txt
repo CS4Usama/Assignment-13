@@ -1,0 +1,92 @@
+ASSALAM_ALAIKUM!
+Attention Required!
+Saylani Web and Mobile Development Course - Batch3!
+Assignment 13 – Week 13
+Note: Please complete all exercises take input through form, and show into HTML elements, host on firebase submit the links below.
+
+Submit: https://forms.gle/CXnWr5vvcr4LMtu88
+
+
+===================================================================================================================================
+
+Question-01
+Write a function that converts hours into seconds.
+
+Examples:
+hoursToSec(2) ➞ 7200
+hoursToSec(10) ➞ 36000
+hoursToSec(24) ➞ 86400
+
+Note =>
+* 60 seconds in a minute, 60 minutes in an hour
+* Don't forget to return your answer.
+
+---------------------------
+
+Question-02
+Create a function that takes the age and returns the age in days.
+
+Examples:
+calcAge(65) ➞ 23725
+calcAge(0) ➞ 0
+calcAge(20) ➞ 7300
+
+Note =>
+* Use 365 days as the length of a year for this challenge.
+* Ignore leap years and days between last birthday and now.
+* Expect only positive integer inputs.
+
+---------------------------
+
+Question-03
+Create a function that takes an array of number arr and returns an inverted array.
+
+Examples:
+invertArray([1, 2, 3, 4, 5])) ➞ [-1, -2, -3, -4, -5]
+invertArray([1, -2, 3, -4, 5] ➞ [-1, 2, -3, 4, -5]
+invertArray([]) ➞ []
+
+---------------------------
+
+Question-04
+Create a function that takes two strings as arguments and return either true or false depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+
+Examples:
+comp2Str("AB", "CD") ➞ true
+comp2Str("ABC", "DE") ➞ false
+comp2Str("hello", "edabit") ➞ false
+
+---------------------------
+
+Question-05
+Create a function that takes an array of integers and strings. Convert integers to strings and return the new array.
+
+Examples:
+parseArray([1, 2, "a", "b"]) ➞ ["1", "2", "a", "b"]
+parseArray(["abc", 123, "def", 456]) ➞ ["abc", "123", "def", "456"]
+parseArray([1, 2, 3, 17, 24, 3, "a", "123b"]) ➞ ["1", "2", "3", "17", "24", "3", "a", "123b"]
+parseArray([]) ➞ []
+
+---------------------------
+
+Question-06
+Write a function that determines if the year is a leap year or not.
+
+Examples:
+leapYear(2020) ➞ true
+leapYear(2021) ➞ false
+leapYear(1968) ➞ true
+
+---------------------------
+
+Question-07
+Create a function that takes the number of daily average-recovered cases, daily average new cases, current active cases, and returns the number of days it will take to reach zero cases.
+
+Examples:
+endCorona(4000, 2000, 77000) ➞ 39
+endCorona(3000, 2000, 50699) ➞ 51
+endCorona(30000, 25000, 390205) ➞ 79
+
+Note =>
+* The number of people who recover per day will always be greater than daily new cases.
+* Be conservative and round up the number of days needed.
